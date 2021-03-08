@@ -30,10 +30,10 @@ function Transaction() {
                 <hr></hr>
                 <div className='transaction_body'>
                     <div className='transaction_body-input'>
-                        <input type="text" placeholder="Activity" value={Activity} onChange={changeActivity} ></input>
+                        <input style={{width: "100%",height:"35%"}} type="text" placeholder="Activity" value={Activity} onChange={changeActivity} ></input>
                     </div>
                     <div className='transaction_body-input'>
-                        <input type="number" placeholder="Amount" value={Amount} onChange={changeAmount}></input>
+                        <input style={{width: "100%",height:"35%"}} type="number" placeholder="Amount" value={Amount} onChange={changeAmount}></input>
                         <div style={{color:"red"}}>put (+) for incom and (-) for cost before number</div>
                     </div>
                     <div className='transaction_body-input-button'>
