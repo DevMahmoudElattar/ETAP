@@ -1,0 +1,31 @@
+.transaction_body{
+    width: 100%;
+    padding: 10px;
+}
+
+
+.transaction_body-input{
+    text-align: center;
+    padding: 1%;
+}
+
+.transaction_body-input-button{
+    width: 100%;
+    text-align: center;
+    margin-top: 1%;
+    padding: 10px;
+}
+
+.transaction_body-input-button-itself{
+    border: none;
+    width: 100%;
+    padding: 3%;
+    background-color: rgb(117, 115, 250);
+}
+
+.transaction_body-input-button-itself:hover {
+   
+    color : white;
+    cursor:pointer;
+    background-color: rgb(54, 158, 255);
+}

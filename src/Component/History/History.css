@@ -1,0 +1,58 @@
+.hide_history_button{
+    display: none;
+}
+
+.show_history_button{
+    display: inline-block;
+
+}
+
+.btn_effect{
+    border: none;
+    width: 100%;
+    padding: 3px;
+    color : white;
+    background-color: rgb(255, 103, 103);
+}
+
+.btn_effect:hover{
+    border: none;
+    width: 100%;
+    padding: 10px;
+    color : white;
+    cursor:pointer;
+    background-color: rgb(255, 0, 0);
+}
+
+.ul_list{
+    list-style-type: none;
+    width: 100%;
+    padding: 0;
+}
+
+.Positive_History_list{
+    margin: 3% auto;
+    padding: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-right: 5px solid green;
+    background-color: rgb(243, 243, 243);
+    box-shadow: 0px 8px 4px -5px rgba(0,0,0,0.68);
+}
+
+.Negative_History_list{
+    margin: 3% auto;
+    padding: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-right: 5px solid red;
+    background-color: rgb(243, 243, 243);
+    box-shadow: 0px 8px 4px -5px rgba(0,0,0,0.68);
+}
+
+
+.History_list-li{
+    cursor:pointer;
+}
